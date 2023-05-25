@@ -17,10 +17,11 @@
 <body>
     <script>
        var nome = window.prompt('Qual seu nome? ')
-       document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras `)
-       document.write(` Em maiusculas ${nome.toUpperCase()}`) 
-       document.write(` Em minusculas ${nome.toLowerCase()} `)
-
+       document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras <br/>`)
+       document.write(` Em maiúsculas ${nome.toUpperCase()} <br/>`) 
+       document.write(` Em minúsculas ${nome.toLowerCase()} `)
+       
+       //  n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})  
     </script>
     
 </body>
